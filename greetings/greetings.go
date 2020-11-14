@@ -17,3 +17,5 @@ func Hello(name string) (string, error) {
     message := fmt.Sprintf("Hi, %v. Welcome!", name)
     return message, nil
 }
+
+// Any go function can return multiple values
